@@ -24,7 +24,7 @@ export default function RootLayout({
           <nav>
             <Navbar />
           </nav>
-          <main className="bg-gray-100 px-5 overflow-x-hidden dark:bg-gray-950 overflow-hidden">
+          <main className="bg-gray-100 px-5 overflow-x-hidden dark:bg-gray-900 overflow-hidden">
             {children}
           </main>
           <footer>

@@ -10,8 +10,8 @@ const FourthSection = () => {
     },
   ];
   return (
-    <div className="md:px-[40px] shadow-xl shadow-blue-400 mt-3  px-2 text-center">
-      <h1 className="mt-12 lg:text-2xl mt-2 text-sm font-black xl:text-3xl">
+    <div className="md:px-[40px] dark:shadow-xl dark:shadow-blue-400 mt-3  px-2 text-center">
+      <h1 className="mt-12 lg:text-2xl  text-sm font-black xl:text-3xl">
         Let’s works together. Let’s Creative.Let’s works together. Let’s
         Creative
       </h1>

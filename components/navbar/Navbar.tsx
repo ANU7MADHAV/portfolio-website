@@ -13,7 +13,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex items-center justify-between  shadow-xl py-4 px-4 md:px-[50px] xl:px-[100px]">
+    <div className="flex items-center justify-between  dark:shadow dark:shadow-blue-400 py-4 px-4 md:px-[50px] xl:px-[100px]">
       <Link href="/">
         <h1 className="text-xs md:text-base">ANU MADHAV</h1>
       </Link>
