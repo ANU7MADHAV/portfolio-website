@@ -24,12 +24,12 @@ const FirstSection = () => {
           animate="visible"
           variants={containerVariants}
         >
-          <h1 className="bg-gradient-to-r text-5xl text-center from-[#EE4AFC]  py-3  to-blue-600  text-transparent bg-clip-text">
+          <h1 className="bg-gradient-to-r sm:text-3xl text-2xl md:text-5xl text-center from-[#EE4AFC]  py-3  to-blue-600  text-transparent bg-clip-text">
             Hey There ! <br />
             I’m Anu Madhav
           </h1>
         </motion.div>
-        <h3 className="text-lg font-semibold">
+        <h3 className="md:text-lg text-base text-center font-semibold">
           I engineer Websites, Experiences & Code.
         </h3>
       </section>

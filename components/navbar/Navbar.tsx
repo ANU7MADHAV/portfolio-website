@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ThemeSwitch from "../ThemeSwitch";
 
 const Navbar = () => {
   const navLinks = [
@@ -12,9 +13,13 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className="flex justify-between py-4 px-[50px] xl:px-[100px]">
-      <h1>Logo</h1>
-      <ul className="flex gap-5 cursor-pointer">
+    <div className="flex items-center justify-between  shadow-xl py-4 px-4 md:px-[50px] xl:px-[100px]">
+      <Link href="/">
+        <h1 className="text-xs md:text-base">ANU MADHAV</h1>
+      </Link>
+
+      <ThemeSwitch />
+      <ul className="flex gap-2 md:gap-5 cursor-pointer">
         {navLinks.map((links, index) => (
           <Link href={links.path} key={index}>
             <li>{links.name}</li>

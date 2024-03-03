@@ -10,7 +10,7 @@ type Prop = {
 const CardProjects = ({ image, heading }: Prop) => {
   return (
     <div className="flex flex-col px-2 justify-center items-center">
-      <section className="sm:w-[400px] w-[350px] rounded-xl shadow">
+      <section className="sm:w-[400px] w-[300px] rounded-xl shadow">
         <Image
           src={image}
           alt="hello"
