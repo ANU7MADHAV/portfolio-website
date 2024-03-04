@@ -11,13 +11,13 @@ const FourthSection = () => {
   ];
   return (
     <div className="md:px-[40px] dark:shadow-xl dark:shadow-blue-400 mt-3  px-2 text-center">
-      <h1 className="mt-12 lg:text-2xl  text-sm font-black xl:text-3xl">
+      <h2 className="mt-12 lg:text-2xl  text-sm font-black xl:text-3xl">
         Let’s works together. Let’s Creative.Let’s works together. Let’s
         Creative
-      </h1>
+      </h2>
       <section className="flex my-8 text-sm sm:text-lg md:text-xl font-semibold justify-between">
-        <h1>Let’s works together. Let’s Creative.</h1>
-        <h1>Say Hello! anumadhavan7@gmail.com</h1>
+        <h3>Let’s works together. Let’s Creative.</h3>
+        <h3>Say Hello! anumadhavan7@gmail.com</h3>
       </section>
       <section>
         <ul className="flex font-serif cursor-pointer justify-center gap-4">

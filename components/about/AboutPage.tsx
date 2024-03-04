@@ -21,7 +21,7 @@ const AboutPage = () => {
         <Image
           src={profile}
           alt="profile"
-          className="my-[20px] max-w-[250px] overflow-hidden md:w-[400px] md:my-0"
+          className=" mt-4 max-w-[250px] overflow-hidden md:w-[400px] lg:w-auto md:my-0"
         />
       </section>
     </div>
